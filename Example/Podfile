@@ -1,11 +1,5 @@
 use_frameworks!
-
+platform:ios,'8.0'
 target 'PopoverView_Example' do
   pod 'PopoverView', :path => '../'
-
-  target 'PopoverView_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end

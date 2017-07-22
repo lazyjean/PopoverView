@@ -1,0 +1,30 @@
+PODS:
+  - Colours (5.13.0):
+    - Colours/ObjC (= 5.13.0)
+  - Colours/ObjC (5.13.0)
+  - PopoverView (0.1.0):
+    - Colours
+    - ReactiveCocoa (~> 2.5)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+
+DEPENDENCIES:
+  - PopoverView (from `../`)
+
+EXTERNAL SOURCES:
+  PopoverView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Colours: f24220c38f13deac88612667e9b4a7fb96b871d4
+  PopoverView: d0af83d224242de5ad7746a5a288f1348f90036f
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+
+PODFILE CHECKSUM: 2aa9030403a6286566f016cf75ba69a692e50f14
+
+COCOAPODS: 1.2.1
