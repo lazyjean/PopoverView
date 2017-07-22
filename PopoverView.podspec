@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'PopoverView'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = '气泡弹出框'
   s.description      = <<-DESC
                         类似微信的汽泡弹出框
