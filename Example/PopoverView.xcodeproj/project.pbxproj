@@ -169,6 +169,11 @@
 				CLASSPREFIX = PV;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "刘真";
+				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = N9B347KDE9;
+					};
+				};
 			};
 			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "PopoverView" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -327,7 +332,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -371,7 +376,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -383,6 +388,7 @@
 			baseConfigurationReference = C2BA050FF25FE7A3048CAF80 /* Pods-PopoverView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N9B347KDE9;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PopoverView/PopoverView-Prefix.pch";
 				INFOPLIST_FILE = "PopoverView/PopoverView-Info.plist";
@@ -398,6 +404,7 @@
 			baseConfigurationReference = 1D8C176B253E145D40F930B4 /* Pods-PopoverView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N9B347KDE9;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PopoverView/PopoverView-Prefix.pch";
 				INFOPLIST_FILE = "PopoverView/PopoverView-Info.plist";
