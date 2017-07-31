@@ -11,8 +11,6 @@
 #import <ReactiveCocoa/ReactiveCocoa.h>
 #import <ReactiveCocoa/RACEXTScope.h>
 
-@import Colours;
-
 #define PopoverItemHeight   44
 #define PopoverWidth        200
 #define PopoverItemLeftMargin    9
