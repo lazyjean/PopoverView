@@ -237,6 +237,7 @@
     }
     
     [self.maskView removeFromSuperview];
+    self.maskView = nil;
 }
 
 - (void)addTitle:(NSString *)title image:(UIImage *)image handler:(void (^)(void))handler {
