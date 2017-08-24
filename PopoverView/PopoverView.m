@@ -79,8 +79,14 @@
     //创建并显示mask
     UIView *mask = [self createMask];
     [mask addSubview:self];
-    
-    UIView *root = view.window.rootViewController.view;
+
+    UIViewController *rootVC = view.window.rootViewController;
+    while (rootVC.presentedViewController) {
+        rootVC = rootVC.presentedViewController;
+    }
+
+    UIView *root = rootVC.view;
+
     mask.frame = root.bounds;
     [root addSubview:mask];
     self.maskView = mask;
