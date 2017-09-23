@@ -1,6 +1,6 @@
 {
   "name": "PopoverView",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "summary": "气泡弹出框",
   "description": "类似微信的汽泡弹出框",
   "homepage": "http://git.oschina.net/leeszi/PopoverView",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://git.oschina.net/leeszi/PopoverView.git",
-    "tag": "0.1.1"
+    "tag": "0.2.0"
   },
   "platforms": {
     "ios": "8.0"
@@ -22,9 +22,6 @@
   "public_header_files": "PopoverView/**/*.h",
   "frameworks": "UIKit",
   "dependencies": {
-    "ReactiveCocoa": [
-      "~> 2.5"
-    ],
     "Colours": [
 
     ]

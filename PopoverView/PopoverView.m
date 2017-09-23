@@ -9,8 +9,6 @@
 #import "PopoverView.h"
 #import "PopoverItem.h"
 
-@import Colours;
-
 #define PopoverItemHeight   44
 #define PopoverWidth        200
 #define PopoverItemLeftMargin    9
@@ -58,13 +56,21 @@
     //创建并显示mask
     UIView *mask = [self createMask];
     [mask addSubview:self];
+
+    UIViewController *rootVC = view.window.rootViewController;
+    while (rootVC.presentedViewController) {
+        rootVC = rootVC.presentedViewController;
+    }
+
+    UIView *root = rootVC.view;
     
-    UIView *root = view.window.rootViewController.view;
     mask.frame = root.bounds;
     [root addSubview:mask];
     self.maskView = mask;
     
     CGRect rect = [mask convertRect:view.bounds fromView:view];
+
+
     [self updateContent:rect];
 }
 
@@ -79,8 +85,14 @@
     //创建并显示mask
     UIView *mask = [self createMask];
     [mask addSubview:self];
-    
-    UIView *root = view.window.rootViewController.view;
+
+    UIViewController *rootVC = view.window.rootViewController;
+    while (rootVC.presentedViewController) {
+        rootVC = rootVC.presentedViewController;
+    }
+
+    UIView *root = rootVC.view;
+
     mask.frame = root.bounds;
     [root addSubview:mask];
     self.maskView = mask;
@@ -237,6 +249,7 @@
     }
     
     [self.maskView removeFromSuperview];
+    self.maskView = nil;
 }
 
 - (void)addTitle:(NSString *)title image:(UIImage *)image handler:(void (^)(void))handler {
