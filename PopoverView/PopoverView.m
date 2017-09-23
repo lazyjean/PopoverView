@@ -8,8 +8,6 @@
 
 #import "PopoverView.h"
 #import "PopoverItem.h"
-#import <ReactiveCocoa/ReactiveCocoa.h>
-#import <ReactiveCocoa/RACEXTScope.h>
 
 @import Colours;
 

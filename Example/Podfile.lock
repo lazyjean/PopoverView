@@ -2,7 +2,7 @@ PODS:
   - Colours (5.13.0):
     - Colours/ObjC (= 5.13.0)
   - Colours/ObjC (5.13.0)
-  - PopoverView (0.1.0):
+  - PopoverView (0.1.1):
     - Colours
     - ReactiveCocoa (~> 2.5)
   - ReactiveCocoa (2.5):
@@ -22,7 +22,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Colours: f24220c38f13deac88612667e9b4a7fb96b871d4
-  PopoverView: d0af83d224242de5ad7746a5a288f1348f90036f
+  PopoverView: 9379e1c54c469ada894a8f71a733b6a07d1cddfb
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
 
 PODFILE CHECKSUM: 2aa9030403a6286566f016cf75ba69a692e50f14

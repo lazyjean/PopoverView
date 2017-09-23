@@ -1,7 +1,7 @@
 {
   "name": "PopoverView",
-  "version": "0.1.0",
-  "summary": "A short description of PopoverView.",
+  "version": "0.1.1",
+  "summary": "气泡弹出框",
   "description": "类似微信的汽泡弹出框",
   "homepage": "http://git.oschina.net/leeszi/PopoverView",
   "license": {
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://git.oschina.net/leeszi/PopoverView.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
