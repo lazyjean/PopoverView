@@ -1,9 +1,5 @@
 PODS:
-  - Colours (5.13.0):
-    - Colours/ObjC (= 5.13.0)
-  - Colours/ObjC (5.13.0)
-  - PopoverView (0.2.0):
-    - Colours
+  - PopoverView (0.2.1)
 
 DEPENDENCIES:
   - PopoverView (from `../`)
@@ -13,8 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Colours: f24220c38f13deac88612667e9b4a7fb96b871d4
-  PopoverView: d487c38dacf600b877c22571a58ed7183d81ac8d
+  PopoverView: 662a010dbc4265c08adee4c0bd3092bbdcfdd6f6
 
 PODFILE CHECKSUM: 2aa9030403a6286566f016cf75ba69a692e50f14
 

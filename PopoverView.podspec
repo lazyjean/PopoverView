@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'PopoverView'
-  s.version          = '0.2.0'
+  s.version          = '0.2.1'
   s.summary          = '气泡弹出框'
   s.description      = <<-DESC
                         类似微信的汽泡弹出框
@@ -17,5 +17,4 @@ Pod::Spec.new do |s|
   s.source_files = 'PopoverView/**/*'
   s.public_header_files = 'PopoverView/**/*.h'
   s.frameworks = 'UIKit'
-  s.dependency 'Colours'
 end
