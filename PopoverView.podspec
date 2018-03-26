@@ -1,7 +1,7 @@
 # coding: utf-8
 Pod::Spec.new do |s|
   s.name             = 'PopoverView'
-  s.version          = '0.3.1'
+  s.version          = '0.3.2'
   s.summary          = '气泡弹出框'
   s.description      = <<-DESC
                         类似微信的汽泡弹出框

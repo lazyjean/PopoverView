@@ -171,7 +171,8 @@
 				ORGANIZATIONNAME = "刘真";
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
-						DevelopmentTeam = N9B347KDE9;
+						DevelopmentTeam = 4YN4954HZ8;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -396,13 +397,16 @@
 			baseConfigurationReference = C2BA050FF25FE7A3048CAF80 /* Pods-PopoverView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = N9B347KDE9;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 4YN4954HZ8;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PopoverView/PopoverView-Prefix.pch";
 				INFOPLIST_FILE = "PopoverView/PopoverView-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4db8abe5-4fc5-4a8f-a91e-df4f81f3a814";
+				PROVISIONING_PROFILE_SPECIFIER = develop;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -412,13 +416,16 @@
 			baseConfigurationReference = 1D8C176B253E145D40F930B4 /* Pods-PopoverView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = N9B347KDE9;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 4YN4954HZ8;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PopoverView/PopoverView-Prefix.pch";
 				INFOPLIST_FILE = "PopoverView/PopoverView-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4db8abe5-4fc5-4a8f-a91e-df4f81f3a814";
+				PROVISIONING_PROFILE_SPECIFIER = develop;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

@@ -22,7 +22,7 @@
 @property (nonatomic, weak) UIView *maskView;
 @property (nonatomic, strong) UITableView *contentView;
 
-@property (nonatomic,copy) void(^dismissHandler)();
+@property (nonatomic,copy) void(^dismissHandler)(void);
 
 @end
 
